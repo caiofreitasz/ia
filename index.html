@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia de Senhas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <main class="container">
+        <h1>Criptografia de Senhas</h1>
+
+        <p>Digite uma palavra ou senha para criptografar:</p>
+
+        <input type="text" id="senha" placeholder="Digite sua senha">
+
+        <button onclick="criptografarNumeros()">
+            Criptografia numérica
+        </button>
+
+        <button onclick="criptografarLetras()">
+            Criptografia com letras
+        </button>
+
+        <button onclick="descriptografar()">
+            Descriptografar
+        </button>
+
+        <div class="resultado">
+            <h2>Resultado:</h2>
+            <p id="resultado">Sua senha aparecerá aqui.</p>
+        </div>
+    </main>
+
+</body>
+</html>
